@@ -1,0 +1,18 @@
+html{
+    background-color: #654236;
+    color: #D6D4A0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gconsole{
+    background-color: #DB995A;
+    border-radius: 20px;
+    color: #654236;
+    padding: 10px;
+    width: 310px;
+}
+
+.gconsole-image{
+    height: 300px;
+    width: 300px;
+}
