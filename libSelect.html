@@ -6,28 +6,19 @@
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">-->
     <script>window.$ = window.jQuery = require('jquery');</script>
     <link href="./index.css" rel="stylesheet">
-    <title>Emulation Launcher</title>
+    <title>Emulation Library Select</title>
   </head>
   <body>
     <div class="container">
-    <h1 class="header">Emulator Launcher</h1>
-    <div class="content-area"> 
-      <div class="description">
-        Please select a device to emulate
-        <button id="paths">set library path</button>
-      </div>
-      <div class="emulator-select" id="emulator-select">
-        <template id="gconsole">
-          <div class="gconsole">
-            <img class="gconsole-image" />
-            <span class="gconsole-text"></span>
-          </div>
-        </template>
-      </div>
+    <h1 class="header">Please select the emulation library folder</h1>
+    <div id="path-select"> 
+        <input id="emu-path" type="text">
+        <button id="submit-button">submit</button>>
     </div>
     </div>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
-    <script src="./emulator-pop.js"></script>
+    <script src="./lib-selector.js"></script>
+    <!--<script src="./emulator-pop.js"></script>-->
   </body>
 </html>
